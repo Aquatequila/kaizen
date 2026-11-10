@@ -57,6 +57,7 @@ export interface WorkoutSession {
   startedAt: number;
   endedAt?: number;
   restEndAt?: number;
+  currentExerciseIndex?: number;
   exercises: SessionExercise[];
 }
 export interface AppSetting { key: string; value: unknown; }
