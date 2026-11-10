@@ -6,7 +6,7 @@ P0 defines the first release. P1 is post-launch polish. P2 covers later enhancem
 
 **As a trainee, I want a calm, legible app that is easy to use between sets.**
 
-- Use four primary destinations: **Today**, **Plans**, **History**, and **Settings**. Keep an active workout visually distinct and one tap away from its main logging screen.
+- Use four primary destinations: **Today**, **Plans**, **Progress**, and **Settings**. Keep an active workout visually distinct and one tap away from its main logging screen.
 - Design phone-first from 320 px widths upward. At 390 px, the active set, reps input, weight, completion action, and optional rest control fit without horizontal scrolling.
 - Use bottom navigation outside a workout; preserve the active workout when navigating away or returning from another app.
 - Show a helpful first-run path: create a plan, select exercises, or start from a sample plan. Every empty state has one clear next action.
@@ -96,7 +96,7 @@ Progression is not part of the MVP. Later, propose a small, explainable rep or l
 
 Deliver WP1–WP4 and WP6–WP9 for the first release, including both charts and backup/restore. Progression suggestions in WP5 remain deferred until the logging experience is proven.
 
-## Decisions still needed
+## Launch decisions
 
-- Which two machine-setting labels should appear as quick-start suggestions? Keep labels and values editable per exercise.
-- What default rest duration feels right? Use an editable default and one-tap adjustments until decided.
+- Machine settings are fully editable per exercise; do not impose default labels across equipment types.
+- The optional rest timer starts at 90 seconds by default. Users can change the default and pause, resume, adjust, or skip the timer.

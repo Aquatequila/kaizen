@@ -12,12 +12,12 @@ The app has no server-side component in the MVP. The deployed site serves the ap
 | --- | --- | --- |
 | UI | React + TypeScript + Vite | Small, maintainable interactive mobile web app and static build |
 | Styling | Semantic HTML + CSS custom properties and responsive CSS | Thumb-friendly layouts, dark cyberpunk palette, safe areas, and accessible focus states |
-| Navigation | React Router | Home, plan editor, active workout, history, and settings |
+| Navigation | React screen state with a persistent bottom bar | Today, plans, progress, and settings; active workout is a focused full-screen mode |
 | Local persistence | IndexedDB through Dexie | Durable structured plans, English exercise catalogue, sessions, and set records; weights stored as total kg |
 | Offline/PWA | Web App Manifest + service worker, managed by `vite-plugin-pwa` | Home Screen install, cached app shell and assets, offline launch, controlled update prompt |
 | Charts | Recharts with custom accessible labels | Total reps and heaviest-set weight trends, one series per exercise; pair with a data table |
 | Icons | Lucide icons for controls; licensed RepDB images for matching exercises | Consistent controls and offline exercise illustrations |
-| Tests | Vitest + Testing Library; Playwright for core browser flows | Domain rules, persistence, responsive behavior, and essential workout journeys |
+| Quality checks | TypeScript strict mode and production build | Catch type errors and create the static release bundle; add automated journey tests when a suite is introduced |
 | Hosting/deploy | Cloudflare Pages Git integration | HTTPS hosting, GitHub-triggered production deploys and branch previews |
 
 ## Mobile and Offline Behavior
@@ -34,21 +34,19 @@ The app has no server-side component in the MVP. The deployed site serves the ap
 
 The starter catalogue is [`exercise-library.md`](exercise-library.md). Match its standard entries against RepDB's free-tier records, bundle only the selected illustrations, and retain the visible credit **“Exercise data by RepDB (repdb.co)”** in the app. RepDB allows personal and commercial in-app use with attribution and prohibits redistribution of the dataset as a dataset; see its [dataset](https://github.com/RepDB/exercise-dataset) and [data license](https://github.com/RepDB/exercise-dataset/blob/main/LICENSE-DATA.md). For unmatched custom movements, use the name and a neutral icon rather than a misleading image.
 
-## Suggested Project Layout
+## Current Project Layout
 
 ```text
 src/
-  app/                 App shell, routes, theme
-  features/
-    plans/             Plan list and editor
-    workout/           Active session, set logging, manual rest timer
-    history/           Session list and exercise trends
-    settings/          Rest default, backup and restore
-  data/                IndexedDB schema, repositories, migrations
-  domain/              Exercise, plan, session types and calculations
-  components/          Shared controls and accessible form elements
-  assets/              Bundled exercise illustrations and app icons
-public/                Manifest, offline shell assets, static metadata
+  App.tsx              Screens, plan editing, logging, progress, settings
+  data/db.ts           Dexie schema, starter data, session snapshots
+  data/exercises.json  Bundled standard exercise catalogue
+  types.ts             Shared exercise, plan, and session records
+  styles.css           Responsive mobile-first interface
+public/
+  exercise-art/        Bundled RepDB WebP illustrations
+  _redirects           Cloudflare Pages single-page app fallback
+  icon-*.png           Install and home-screen icons
 ```
 
 Completed sessions store snapshots of exercise names, machine settings, set values, and units so later plan or catalogue edits cannot rewrite history. Keep the working weight at exercise level and let an individual set override it; chart the heaviest completed set in each session.
@@ -60,7 +58,11 @@ Completed sessions store snapshots of exercise names, machine settings, set valu
 3. Set the production branch to `main`, build command to `npm run build`, and output directory to `dist`.
 4. Every push to `main` updates the live site; other branches get preview URLs. Use the free assigned `*.pages.dev` URL for launch and keep it stable; no custom domain is planned for the MVP.
 
-This project is already connected to the `Aquatequila/kaizen` GitHub repository. After the PWA source exists, connect that repository to Cloudflare Pages. GitHub Pages is another option for a public repository; Cloudflare Pages is preferred because its Git integration also supports private repositories on the Free plan.
+The source repository is `Aquatequila/kaizen`. Cloudflare Pages must be connected to it once in the Cloudflare dashboard; that account-level integration cannot be configured by a repository commit. The checked-in app is ready for the build settings above.
+
+## Launch Defaults
+
+Use English and kilograms. Weight means total external load, including paired dumbbells. Start the optional rest timer at 90 seconds; users may change the default or skip it. Use editable exercise-specific machine settings, a dark interface with restrained lime accents, and the free `pages.dev` address. Keep that address stable because IndexedDB records belong to the site origin.
 
 ## Scope Boundaries
 

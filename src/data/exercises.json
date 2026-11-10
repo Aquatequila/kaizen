@@ -1,0 +1,1160 @@
+[
+  {
+    "id": "barbell-back-squat",
+    "name": "Back squat",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-back-squat",
+    "artSourceId": "squat",
+    "settings": []
+  },
+  {
+    "id": "barbell-front-squat",
+    "name": "Front squat",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-front-squat",
+    "artSourceId": "front-squat",
+    "settings": []
+  },
+  {
+    "id": "barbell-bench-press",
+    "name": "Bench press",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-bench-press",
+    "artSourceId": "bench-press",
+    "settings": []
+  },
+  {
+    "id": "barbell-incline-bench-press",
+    "name": "Incline bench press",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-incline-bench-press",
+    "artSourceId": "incline-bench-press",
+    "settings": []
+  },
+  {
+    "id": "barbell-overhead-press",
+    "name": "Overhead press",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "anterior_deltoid",
+      "lateral_deltoid"
+    ],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "barbell-deadlift",
+    "name": "Deadlift",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "erector_spinae",
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-deadlift",
+    "artSourceId": "deadlift",
+    "settings": []
+  },
+  {
+    "id": "barbell-romanian-deadlift",
+    "name": "Romanian deadlift",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-romanian-deadlift",
+    "artSourceId": "romanian-deadlift",
+    "settings": []
+  },
+  {
+    "id": "barbell-barbell-row",
+    "name": "Barbell row",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-barbell-row",
+    "artSourceId": "barbell-row",
+    "settings": []
+  },
+  {
+    "id": "barbell-hip-thrust",
+    "name": "Hip thrust",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "gluteus_medius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-hip-thrust",
+    "artSourceId": "hip-thrust",
+    "settings": []
+  },
+  {
+    "id": "barbell-barbell-lunge",
+    "name": "Barbell lunge",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-barbell-lunge",
+    "artSourceId": "barbell-lunge",
+    "settings": []
+  },
+  {
+    "id": "barbell-calf-raise",
+    "name": "Calf raise",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "gastrocnemius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-calf-raise",
+    "artSourceId": "barbell-calf-raise",
+    "settings": []
+  },
+  {
+    "id": "barbell-barbell-curl",
+    "name": "Barbell curl",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "biceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-barbell-curl",
+    "artSourceId": "barbell-curl",
+    "settings": []
+  },
+  {
+    "id": "barbell-skull-crusher",
+    "name": "Skull crusher",
+    "category": "Barbell",
+    "equipment": "barbell",
+    "loadType": "external",
+    "muscles": [
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/barbell-skull-crusher",
+    "artSourceId": "skull-crusher",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-goblet-squat",
+    "name": "Goblet squat",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-goblet-squat",
+    "artSourceId": "goblet-squat",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-split-squat",
+    "name": "Dumbbell split squat",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-split-squat",
+    "artSourceId": "dumbbell-split-squat",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-lunge",
+    "name": "Dumbbell lunge",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-lunge",
+    "artSourceId": "db-lunge",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-bench-press",
+    "name": "Dumbbell bench press",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-bench-press",
+    "artSourceId": "db-bench-press",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-incline-dumbbell-press",
+    "name": "Incline dumbbell press",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-incline-dumbbell-press",
+    "artSourceId": "incline-db-press",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-shoulder-press",
+    "name": "Dumbbell shoulder press",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "anterior_deltoid",
+      "lateral_deltoid"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-shoulder-press",
+    "artSourceId": "dumbbell-shoulder-press",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-row",
+    "name": "Dumbbell row",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-row",
+    "artSourceId": "bent-over-db-row",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-chest-supported-dumbbell-row",
+    "name": "Chest-supported dumbbell row",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-chest-supported-dumbbell-row",
+    "artSourceId": "chest-supported-db-row",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "Romanian deadlift",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-romanian-deadlift",
+    "artSourceId": "romanian-deadlift",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-dumbbell-fly",
+    "name": "Dumbbell fly",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-dumbbell-fly",
+    "artSourceId": "db-fly",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Lateral raise",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "lateral_deltoid"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-lateral-raise",
+    "artSourceId": "lateral-raise",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-rear-delt-fly",
+    "name": "Rear-delt fly",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "posterior_deltoid",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-rear-delt-fly",
+    "artSourceId": "rear-delt-fly",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-biceps-curl",
+    "name": "Biceps curl",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "dumbbell-hammer-curl",
+    "name": "Hammer curl",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "biceps_brachii",
+      "brachialis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-hammer-curl",
+    "artSourceId": "hammer-curl",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-overhead-triceps-extension",
+    "name": "Overhead triceps extension",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-overhead-triceps-extension",
+    "artSourceId": "overhead-tricep-extension",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-triceps-kickback",
+    "name": "Triceps kickback",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-triceps-kickback",
+    "artSourceId": "tricep-kickback",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-pullover",
+    "name": "Pullover",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi",
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-pullover",
+    "artSourceId": "db-pullover",
+    "settings": []
+  },
+  {
+    "id": "dumbbell-calf-raise",
+    "name": "Calf raise",
+    "category": "Dumbbell",
+    "equipment": "dumbbell",
+    "loadType": "external",
+    "muscles": [
+      "gastrocnemius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/dumbbell-calf-raise",
+    "artSourceId": "barbell-calf-raise",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-leg-press",
+    "name": "Leg press",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-leg-press",
+    "artSourceId": "leg-press",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-leg-extension",
+    "name": "Leg extension",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-leg-extension",
+    "artSourceId": "leg-extension",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-seated-leg-curl",
+    "name": "Seated leg curl",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-seated-leg-curl",
+    "artSourceId": "seated-leg-curl",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-lying-leg-curl",
+    "name": "Lying leg curl",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-lying-leg-curl",
+    "artSourceId": "leg-curl",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-hip-abduction",
+    "name": "Hip abduction",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-hip-adduction",
+    "name": "Hip adduction",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "adductors"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-hip-adduction",
+    "artSourceId": "hip-adduction",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-calf-raise-machine",
+    "name": "Calf-raise machine",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "gastrocnemius",
+      "soleus"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-calf-raise-machine",
+    "artSourceId": "machine-calf-raise",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-chest-press-machine",
+    "name": "Chest-press machine",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-chest-press-machine",
+    "artSourceId": "chest-press-machine",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-pec-deck",
+    "name": "Pec deck",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-pec-deck",
+    "artSourceId": "pec-deck",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-shoulder-press-machine",
+    "name": "Shoulder-press machine",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "anterior_deltoid",
+      "lateral_deltoid"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-shoulder-press-machine",
+    "artSourceId": "machine-shoulder-press",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-lat-pulldown",
+    "name": "Lat pulldown",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-lat-pulldown",
+    "artSourceId": "lat-pulldown",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-seated-cable-row",
+    "name": "Seated cable row",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "latissimus_dorsi",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-seated-cable-row",
+    "artSourceId": "seated-cable-row",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-face-pull",
+    "name": "Cable face pull",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "posterior_deltoid",
+      "rhomboids"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-cable-face-pull",
+    "artSourceId": "face-pull",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-chest-fly",
+    "name": "Cable chest fly",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-triceps-pushdown",
+    "name": "Cable triceps pushdown",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-cable-triceps-pushdown",
+    "artSourceId": "tricep-pushdown",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-overhead-triceps-extension",
+    "name": "Cable overhead triceps extension",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-cable-overhead-triceps-extension",
+    "artSourceId": "cable-overhead-tricep-extension",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-biceps-curl",
+    "name": "Cable biceps curl",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-lateral-raise",
+    "name": "Cable lateral raise",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "lateral_deltoid"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-cable-lateral-raise",
+    "artSourceId": "cable-lateral-raise",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-cable-crunch",
+    "name": "Cable crunch",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "rectus_abdominis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-cable-crunch",
+    "artSourceId": "cable-crunch",
+    "settings": []
+  },
+  {
+    "id": "machines-and-cables-back-extension",
+    "name": "Back extension",
+    "category": "Machines and cables",
+    "equipment": "machine/cable",
+    "loadType": "external",
+    "muscles": [
+      "erector_spinae"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/machines-and-cables-back-extension",
+    "artSourceId": "back-extension",
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-deadlift",
+    "name": "Kettlebell deadlift",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [
+      "erector_spinae",
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/kettlebell-kettlebell-deadlift",
+    "artSourceId": "kettlebell-deadlift",
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-swing",
+    "name": "Kettlebell swing",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/kettlebell-kettlebell-swing",
+    "artSourceId": "kettlebell-swing",
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-goblet-squat",
+    "name": "Kettlebell goblet squat",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-romanian-deadlift",
+    "name": "Kettlebell Romanian deadlift",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-clean",
+    "name": "Kettlebell clean",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-press",
+    "name": "Kettlebell press",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "kettlebell-kettlebell-row",
+    "name": "Kettlebell row",
+    "category": "Kettlebell",
+    "equipment": "kettlebell",
+    "loadType": "external",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-push-up",
+    "name": "Push-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "pectoralis_major",
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-push-up",
+    "artSourceId": "push-up",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-incline-push-up",
+    "name": "Incline push-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "pectoralis_major"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-incline-push-up",
+    "artSourceId": "incline-push-ups",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-pull-up",
+    "name": "Pull-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "latissimus_dorsi"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-pull-up",
+    "artSourceId": "pull-up",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-assisted-pull-up",
+    "name": "Assisted pull-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "latissimus_dorsi"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-assisted-pull-up",
+    "artSourceId": "assisted-pull-ups",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-chin-up",
+    "name": "Chin-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "biceps_brachii",
+      "latissimus_dorsi"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-chin-up",
+    "artSourceId": "chin-ups",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-assisted-dip",
+    "name": "Assisted dip",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "pectoralis_major",
+      "triceps_brachii"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-assisted-dip",
+    "artSourceId": "assisted-dips",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-dip",
+    "name": "Dip",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-inverted-row",
+    "name": "Inverted row",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "latissimus_dorsi",
+      "rhomboids",
+      "trapezius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-inverted-row",
+    "artSourceId": "inverted-row",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-bodyweight-squat",
+    "name": "Bodyweight squat",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-bodyweight-squat",
+    "artSourceId": "bodyweight-squat",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-reverse-lunge",
+    "name": "Reverse lunge",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-reverse-lunge",
+    "artSourceId": "reverse-lunge",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-step-up",
+    "name": "Step-up",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gluteus_maximus",
+      "quadriceps"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-step-up",
+    "artSourceId": "step-ups",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-glute-bridge",
+    "name": "Glute bridge",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gluteus_maximus"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-glute-bridge",
+    "artSourceId": "glute-bridge",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-single-leg-glute-bridge",
+    "name": "Single-leg glute bridge",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gluteus_maximus"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-single-leg-glute-bridge",
+    "artSourceId": "single-leg-glute-bridge",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-bicycle-crunch",
+    "name": "Bicycle crunch",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "obliques",
+      "rectus_abdominis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-bicycle-crunch",
+    "artSourceId": "bicycle-crunch",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-lying-leg-raise",
+    "name": "Lying leg raise",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "hip_flexors",
+      "rectus_abdominis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-lying-leg-raise",
+    "artSourceId": "lying-leg-raise",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-crunch",
+    "name": "Crunch",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "rectus_abdominis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-crunch",
+    "artSourceId": "crunches",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-hanging-knee-raise",
+    "name": "Hanging knee raise",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "hip_flexors",
+      "rectus_abdominis"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-hanging-knee-raise",
+    "artSourceId": "hanging-knee-raise",
+    "settings": []
+  },
+  {
+    "id": "bodyweight-and-assisted-calf-raise",
+    "name": "Calf raise",
+    "category": "Bodyweight and assisted",
+    "equipment": "bodyweight",
+    "loadType": "none",
+    "muscles": [
+      "gastrocnemius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bodyweight-and-assisted-calf-raise",
+    "artSourceId": "barbell-calf-raise",
+    "settings": []
+  },
+  {
+    "id": "bands-band-pull-apart",
+    "name": "Band pull-apart",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [
+      "posterior_deltoid"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bands-band-pull-apart",
+    "artSourceId": "band-pull-apart",
+    "settings": []
+  },
+  {
+    "id": "bands-band-row",
+    "name": "Band row",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "bands-band-chest-press",
+    "name": "Band chest press",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "bands-band-lateral-walk",
+    "name": "Band lateral walk",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [
+      "gluteus_medius"
+    ],
+    "aliases": [],
+    "art": "/exercise-art/bands-band-lateral-walk",
+    "artSourceId": "banded-lateral-walk",
+    "settings": []
+  },
+  {
+    "id": "bands-band-biceps-curl",
+    "name": "Band biceps curl",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  },
+  {
+    "id": "bands-band-triceps-pressdown",
+    "name": "Band triceps pressdown",
+    "category": "Bands",
+    "equipment": "band",
+    "loadType": "variable",
+    "muscles": [],
+    "aliases": [],
+    "art": null,
+    "artSourceId": null,
+    "settings": []
+  }
+]

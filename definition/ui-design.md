@@ -26,6 +26,6 @@ At the start of each session, today's reps and load copy the corresponding last-
 - Use a system sans-serif, tabular numerals for reps, kg, duration, and chart values; use rounded panels sparingly.
 - Keep touch targets at least 44 CSS px, maintain visible focus, respect safe areas, and support reduced motion and zoom.
 
-## Prototype scope
+## Prototype and implementation
 
-`design/mobile-prototype.html` is a standalone interaction concept for Today, Plans, Progress, Settings, and an active workout. It uses sample data and client-side demo interactions only. It does not save workouts, install as a PWA, or represent the production data model. Use it to review visual direction and primary flow before implementation; update it as decisions are made.
+`design/mobile-prototype.html` is the original standalone visual concept. The production PWA is implemented in `src/`; it persists plans and sessions locally, bundles exercise art for offline use, and supports iPhone Safari installation. Keep the prototype as a design reference, and update this document when the shipped interface or product behavior changes.
