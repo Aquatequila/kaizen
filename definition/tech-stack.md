@@ -25,7 +25,8 @@ The app has no server-side component in the MVP. The deployed site serves the ap
 - Design for a 390 px-wide phone first, then adapt to larger screens. Keep common set logging reachable by thumb, inputs large, and the current set unmistakable.
 - From iPhone Safari, users can choose **Share → Add to Home Screen** to launch the PWA in a standalone window. Serve over HTTPS.
 - Cache app code and selected illustrations locally; never fetch exercise artwork from a third-party URL during a workout.
-- Store workout records in IndexedDB. A service worker does not replace backup: browser storage belongs to the current origin/device and may be lost if site data is cleared or the user switches browser/device. Add user-controlled export/import before long-term use.
+- Store workout records in IndexedDB and request persistent browser storage where supported. A service worker does not replace backup: browser storage belongs to the current origin/device and may be lost if site data is cleared or the user switches browser/device. Export/import is P0.
+- Choose the production hostname before users enter real workouts and keep it stable. Browser storage is origin-specific; changing from a `pages.dev` URL to a custom domain makes the old origin's data unavailable to the new one unless exported and imported.
 - Persist timer end time, not just a ticking counter, so reopening after backgrounding can calculate the correct remaining time. An expired timer should not interrupt workout logging.
 - PWA notifications on iPhone have platform conditions and require Home Screen installation and a push service for remote push; do not make the rest timer depend on them. In-app countdown works without notification permission.
 

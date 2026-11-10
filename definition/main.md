@@ -13,9 +13,11 @@ During a workout, the user needs to see what they did last time, quickly record 
 - Create plans from a built-in standard exercise library or custom exercises.
 - Configure exercise order, up to two labeled machine settings, working weight, sets, and reps per set.
 - Run a plan and compare every set with the corresponding set from the previous completed session.
+- Start today's reps at the previous completed value for that set; when no previous value exists, use the plan target. Values remain editable and uncompleted until the user records them.
 - Keep one exercise working weight by default, with optional per-set overrides.
 - Manually start an optional rest countdown; it never starts automatically or blocks logging.
 - Resume an interrupted workout in its prior state, retaining inputs and completion status.
+- Track workout duration as wall-clock time from start to finish, including rests and time in the background.
 - Review sessions and trends: total reps per exercise per session and heaviest completed set weight per exercise per session.
 - Persist data locally in the browser, work offline after first load, and support user-controlled backup/restore.
 

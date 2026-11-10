@@ -1,6 +1,6 @@
 # Kaizen Work Packages
 
-P0 defines the first useful release. P1 adds deeper history and data safety. P2 covers later enhancements. Unless stated otherwise, the app is offline-first and workout data stays in the current browser on the user's device.
+P0 defines the first release. P1 is post-launch polish. P2 covers later enhancements such as progression recommendations. Unless stated otherwise, the app is offline-first and workout data stays in the current browser on the user's device.
 
 ## WP1 — Product shell and mobile UX (P0)
 
@@ -32,11 +32,11 @@ P0 defines the first useful release. P1 adds deeper history and data safety. P2 
 
 - Starting a plan creates one active session with a start timestamp. Prevent accidental duplicate active sessions; offer **Continue workout** or an explicit choice to finish/discard before starting another.
 - Show the current exercise, progress through the plan, machine settings, and each set as a compact, vertically readable list.
-- For every set, show last session's actual reps and weight beside today's editable values (example: **Last: 8 reps · Today: 9 reps**). If no prior session exists, use plan targets and label them as targets.
+- For every set, show last session's actual reps and weight beside today's editable values (example: **Last: 8 reps · Today: 8 reps** as the initial value). Today starts from that set's last completed reps; with no prior value, it starts from the plan target. Keep values editable and uncompleted until the user logs them.
 - If today's plan has more sets than last time, label additional sets **New set** and seed from the plan/default; if it has fewer, retain all prior sets in history without crowding today's screen.
 - Initialize today's working weight from the last session's exercise default, falling back to the plan. Keep it the same across sets unless the user overrides an individual set. Preserve prior per-set actual weights as reference.
 - Make set completion a large, reachable one-tap action. Give immediate visual and tactile feedback where available; provide an easy undo/correction without a modal confirmation.
-- Autosave every edit and completion. On reload, app switch, or device lock, restore the exact exercise, values, completion state, and timer. Calculate elapsed time from timestamps so background suspension does not lose time.
+- Autosave every edit and completion. On reload, app switch, or device lock, restore the exact exercise, values, completion state, and timer. Duration is wall-clock time from start to finish, including rests and interruptions; calculate it from timestamps so background suspension does not lose time.
 - Let the user skip an exercise, add a set, edit a completed set, finish early, or discard with clear consequences. Never delete a workout through a stray tap.
 - Show a concise finish summary (duration, exercises, sets, total reps) with **Done** and **Review session** actions.
 
@@ -53,7 +53,7 @@ P0 defines the first useful release. P1 adds deeper history and data safety. P2 
 
 Progression is not part of the MVP. Later, propose a small, explainable rep or load goal based on logged sessions; show the prior result, allow edit/skip, and never silently change a plan or session.
 
-## WP6 — Session history and progress (P1)
+## WP6 — Session history and progress (P0)
 
 **As a trainee, I want to understand my training without misleading charts.**
 
@@ -64,7 +64,7 @@ Progression is not part of the MVP. Later, propose a small, explainable rep or l
 - For sparse history, explain what data is needed. Do not draw a line across missing sessions or compare incompatible units.
 - Keep set count and session duration available in session details; defer extra chart types until user evidence supports them.
 
-## WP7 — Local data safety (P1, required before long-term reliance)
+## WP7 — Local data safety (P0)
 
 **As a trainee, I want to back up and restore my history.**
 
@@ -92,11 +92,12 @@ Progression is not part of the MVP. Later, propose a small, explainable rep or l
 
 ## MVP order
 
-Deliver WP1–WP4, a basic history list from WP6, PWA/offline/deployment from WP8, and the P0 checks in WP9. Deliver chart views and full backup/restore before inviting anyone to rely on long-term records. Progression suggestions in WP5 remain deferred until the logging experience is proven.
+Deliver WP1–WP4 and WP6–WP9 for the first release, including both charts and backup/restore. Progression suggestions in WP5 remain deferred until the logging experience is proven.
 
 ## Decisions still needed
 
-- Which two machine-setting labels should appear by default? Keep them editable per exercise.
+- Which two machine-setting labels should appear as quick-start suggestions? Keep labels and values editable per exercise.
 - Is kg/lb one app-wide preference or selectable per exercise? Recommended: app-wide display preference with correct conversion and stored canonical values.
+- What does a logged load mean? Recommended: record the load as entered for that exercise; for barbell lifts include the bar, and for paired dumbbells enter the weight of one dumbbell. Keep chart comparisons within the same exercise and unit.
 - What is the default rest duration? Recommended: a short editable default with one-tap adjustments.
 - Which launch language should be supported first? Recommended: German and English strings from the start, with the device language as the default and an explicit override in Settings.
