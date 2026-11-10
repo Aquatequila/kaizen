@@ -12,10 +12,10 @@ The app has no server-side component in the MVP. The deployed site serves the ap
 | --- | --- | --- |
 | UI | React + TypeScript + Vite | Small, maintainable interactive mobile web app and static build |
 | Styling | Semantic HTML + CSS custom properties and responsive CSS | Thumb-friendly layouts, dark cyberpunk palette, safe areas, and accessible focus states |
-| Navigation | React Router or a small URL-state router | Home, plan editor, active workout, history, and settings |
+| Navigation | React Router | Home, plan editor, active workout, history, and settings |
 | Local persistence | IndexedDB through Dexie | Durable structured plans, exercise catalogue, sessions, and set records |
 | Offline/PWA | Web App Manifest + service worker, managed by `vite-plugin-pwa` | Home Screen install, cached app shell and assets, offline launch, controlled update prompt |
-| Charts | Recharts or another small accessible React chart library | Total reps and heaviest-set weight trends, one series per exercise |
+| Charts | Recharts with custom accessible labels | Total reps and heaviest-set weight trends, one series per exercise; pair with a data table |
 | Icons | Lucide icons for controls; licensed RepDB images for matching exercises | Consistent controls and offline exercise illustrations |
 | Tests | Vitest + Testing Library; Playwright for core browser flows | Domain rules, persistence, responsive behavior, and essential workout journeys |
 | Hosting/deploy | Cloudflare Pages Git integration | HTTPS hosting, GitHub-triggered production deploys and branch previews |

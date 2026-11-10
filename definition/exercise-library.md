@@ -87,8 +87,8 @@ This is Kaizen's built-in starter menu. It is intentionally focused on common st
 - Step-up
 - Glute bridge
 - Single-leg glute bridge
-- Plank
-- Side plank
+- Bicycle crunch
+- Lying leg raise
 - Crunch
 - Hanging knee raise
 - Calf raise
@@ -113,3 +113,5 @@ This is Kaizen's built-in starter menu. It is intentionally focused on common st
 ## Exercise record fields
 
 Each built-in record should have a stable ID, display name, searchable aliases, equipment category, primary movement area, optional machine-setting labels, and optional illustration asset paths. User plans reference the stable ID but store a snapshot of the display name and settings in completed sessions, so catalogue updates cannot rewrite history. Weight is an exercise-level working default; each set may override it.
+
+For MVP consistency, the catalogue focuses on repetition-counted strength exercises. Each record must declare whether it uses external load or no load. Do not show a misleading weight trend for bodyweight movements; assisted movements need a distinct assistance/load definition before being added to weight charts. Timed holds and distance-based cardio are outside the initial tracking model.
