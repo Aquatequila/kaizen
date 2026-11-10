@@ -11,6 +11,7 @@ P0 defines the first release. P1 is post-launch polish. P2 covers later enhancem
 - Use bottom navigation outside a workout; preserve the active workout when navigating away or returning from another app.
 - Show a helpful first-run path: create a plan, select exercises, or start from a sample plan. Every empty state has one clear next action.
 - Establish reusable color, type, spacing, card, input, button, and status styles. Dark cyberpunk surfaces and neon accents remain restrained; text and controls meet accessible contrast requirements.
+- Use the [UI design direction](ui-design.md) and [interactive prototype](../design/mobile-prototype.html) as the initial visual reference; validate the active workout flow on a real phone before implementation is considered done.
 - Support Dynamic Type/zoom, VoiceOver names and values, keyboard focus, reduced motion, and clear focus/pressed/disabled/error states. Do not use color alone to communicate completion.
 
 ## WP2 — Exercise library and plans (P0)
@@ -21,7 +22,8 @@ P0 defines the first release. P1 is post-launch polish. P2 covers later enhancem
 - Put recent and favorite exercises first, with an obvious search field and compact category filters. Adding an exercise gives immediate confirmation and keeps the picker open for adding another.
 - Create custom exercises with a name, equipment, optional movement area, and a neutral icon. Built-in exercises remain reusable and cannot be accidentally overwritten by edits to a plan.
 - Create, rename, duplicate, reorder, and delete plans and their exercises. Autosave edits or clearly indicate unsaved changes before leaving.
-- Configure up to two independently labeled machine settings, working weight, set count, and reps for each set. Support bodyweight/no-weight movements and kg/lb.
+- Configure up to two independently labeled machine settings, working weight in kg, set count, and reps for each set. Support bodyweight/no-weight movements.
+- Record total external load in kg: barbell load includes the bar, paired dumbbells are summed, and machine load uses the displayed stack value. Do not chart bodyweight-only exercises as weighted.
 - Make the exercise working weight the default for all sets. Let the user override a set without silently changing the exercise default.
 - Confirm destructive deletes and provide undo for accidental exercise removal/reordering where practical.
 - Editing a plan never changes completed workout history.
@@ -97,7 +99,4 @@ Deliver WP1–WP4 and WP6–WP9 for the first release, including both charts and
 ## Decisions still needed
 
 - Which two machine-setting labels should appear as quick-start suggestions? Keep labels and values editable per exercise.
-- Is kg/lb one app-wide preference or selectable per exercise? Recommended: app-wide display preference with correct conversion and stored canonical values.
-- What does a logged load mean? Recommended: record the load as entered for that exercise; for barbell lifts include the bar, and for paired dumbbells enter the weight of one dumbbell. Keep chart comparisons within the same exercise and unit.
-- What is the default rest duration? Recommended: a short editable default with one-tap adjustments.
-- Which launch language should be supported first? Recommended: German and English strings from the start, with the device language as the default and an explicit override in Settings.
+- What default rest duration feels right? Use an editable default and one-tap adjustments until decided.

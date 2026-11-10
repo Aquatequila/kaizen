@@ -12,6 +12,7 @@ During a workout, the user needs to see what they did last time, quickly record 
 
 - Create plans from a built-in standard exercise library or custom exercises.
 - Configure exercise order, up to two labeled machine settings, working weight, sets, and reps per set.
+- Use kilograms throughout. Enter total external load: include the bar, sum paired dumbbells, and use the machine's displayed stack load.
 - Run a plan and compare every set with the corresponding set from the previous completed session.
 - Start today's reps at the previous completed value for that set; when no previous value exists, use the plan target. Values remain editable and uncompleted until the user records them.
 - Keep one exercise working weight by default, with optional per-set overrides.
@@ -30,4 +31,6 @@ Make the common workout action obvious, calm, and fast. Use a minimal cyberpunk 
 - Workout data remains in the browser on the user's device. The hosted site serves static application files only.
 - Clearing browser data, changing browser/device, or removing the installed web app can make local records unavailable; export/import is the recovery path.
 - Progression recommendations are explicitly out of MVP scope.
+- English is the launch language.
+- Use the free hosting provider's assigned `pages.dev` URL at launch; do not buy or configure a custom domain for the MVP.
 - See [work packages](work-packages.md), [technology stack](tech-stack.md), and [starter exercise library](exercise-library.md) for delivery detail.

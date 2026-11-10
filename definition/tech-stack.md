@@ -13,7 +13,7 @@ The app has no server-side component in the MVP. The deployed site serves the ap
 | UI | React + TypeScript + Vite | Small, maintainable interactive mobile web app and static build |
 | Styling | Semantic HTML + CSS custom properties and responsive CSS | Thumb-friendly layouts, dark cyberpunk palette, safe areas, and accessible focus states |
 | Navigation | React Router | Home, plan editor, active workout, history, and settings |
-| Local persistence | IndexedDB through Dexie | Durable structured plans, exercise catalogue, sessions, and set records |
+| Local persistence | IndexedDB through Dexie | Durable structured plans, English exercise catalogue, sessions, and set records; weights stored as total kg |
 | Offline/PWA | Web App Manifest + service worker, managed by `vite-plugin-pwa` | Home Screen install, cached app shell and assets, offline launch, controlled update prompt |
 | Charts | Recharts with custom accessible labels | Total reps and heaviest-set weight trends, one series per exercise; pair with a data table |
 | Icons | Lucide icons for controls; licensed RepDB images for matching exercises | Consistent controls and offline exercise illustrations |
@@ -43,7 +43,7 @@ src/
     plans/             Plan list and editor
     workout/           Active session, set logging, manual rest timer
     history/           Session list and exercise trends
-    settings/          Units, backup and restore
+    settings/          Rest default, backup and restore
   data/                IndexedDB schema, repositories, migrations
   domain/              Exercise, plan, session types and calculations
   components/          Shared controls and accessible form elements
@@ -58,7 +58,7 @@ Completed sessions store snapshots of exercise names, machine settings, set valu
 1. Push the app source to GitHub.
 2. In Cloudflare Pages, create an application using **Connect to Git** and select the repository.
 3. Set the production branch to `main`, build command to `npm run build`, and output directory to `dist`.
-4. Every push to `main` updates the live site; other branches get preview URLs. Cloudflare supports a default `*.pages.dev` address, with a custom domain optional.
+4. Every push to `main` updates the live site; other branches get preview URLs. Use the free assigned `*.pages.dev` URL for launch and keep it stable; no custom domain is planned for the MVP.
 
 This project is already connected to the `Aquatequila/kaizen` GitHub repository. After the PWA source exists, connect that repository to Cloudflare Pages. GitHub Pages is another option for a public repository; Cloudflare Pages is preferred because its Git integration also supports private repositories on the Free plan.
 

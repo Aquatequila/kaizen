@@ -2,11 +2,11 @@
 
 ## Project Structure & Module Organization
 
-This repository is currently a product-definition and planning project. `definition/main.md` is the source product brief; `definition/work-packages.md`, `definition/tech-stack.md`, and `definition/exercise-library.md` elaborate the delivery plan, technical decisions, and starter exercise catalogue. Keep related material in `definition/` and use descriptive, lowercase filenames. There is no app source, test suite, or bundled asset directory yet; create those when implementation begins and document their purpose here.
+This repository contains product definition, planning, and an early UI prototype. `definition/main.md` is the source product brief; `definition/work-packages.md`, `definition/tech-stack.md`, `definition/exercise-library.md`, and `definition/ui-design.md` define delivery, stack, catalogue, and UX direction. `design/mobile-prototype.html` is a standalone visual/interaction concept, not the production app. Keep product docs in `definition/` and design artifacts in `design/`. The production app, test suite, and bundled exercise assets are not implemented yet.
 
 ## Build, Test, and Development Commands
 
-No build system, package manifest, or automated test runner is currently configured. For documentation changes, edit the relevant Markdown file and review the rendered result in your Markdown viewer. Check links and whitespace manually before submitting. Do not introduce a toolchain solely for a small text change.
+No production build system or automated test runner is configured yet. Open `design/mobile-prototype.html` directly in a browser to review the standalone concept. For documentation changes, check links, headings, and whitespace manually. Do not introduce a toolchain solely for a small text change.
 
 ## Coding Style & Naming Conventions
 
